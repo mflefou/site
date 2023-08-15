@@ -1,19 +1,20 @@
 html, body {
     margin: 0;
+    background:rgb(109, 64, 31)
 }
 
 header{
     background: #775757;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    height: 65px;
+  
     color: #fff;
+    
 }
 
-header h1{
-    margin: 0;
-    font-size: 20px;
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
 }
 
 header img {
@@ -23,12 +24,79 @@ header img {
 }
 
 header span {
-    margin: 0 20px 0 auto;
-
+    margin: 0 20px 0;
+    font-size: 18;
 }
 
 header span img {
     width: 30px;
     height: 30px;
-    margin: 0px 10px -8px auto;
+    margin: 0px 10px -10px;
+}
+
+/* 
+#test1 {
+    background: burlywood;
+    height: 200px;
+    width: 1920px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between
+    
+}
+
+.bloco {
+    background: #775757;
+    width: 120px;
+    height: 120px;
+    margin: 60px;
+}
+
+#test2 {
+    background: rgb(128, 185, 99);
+    height: auto; 
+    width: auto;
+    margin: 0 1600px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.bloco2 {
+    background: #204d31;
+    width: 230px;
+    height: 230px;
+}
+
+*/
+
+main {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+#sidebar-right, #sidebar-left {
+    width: 200px;
+    background: #ccc;
+    height: 500px;
+}
+
+#content {
+    width: 560px;
+    background: black;
+    width: 500px;
+}
+
+
+footer {
+    background: #775757;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
